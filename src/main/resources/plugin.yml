@@ -1,0 +1,13 @@
+name: DrillingSimulator
+version: 1.0
+main: me.kasper.drillingSimulator.DrillingSimulator
+api-version: 1.12.2
+authors: [kasperml]
+commands:
+  statistic:
+    description: "Информация про игрока"
+    usage: "addRebirth <number> or stats"
+  menu:
+    description: "Меню с прокачками"
+    usage: "/menu /app /u"
+    aliases: [app, u]
